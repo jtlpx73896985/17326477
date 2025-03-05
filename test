@@ -1,3 +1,4 @@
+while (rs.next())
 OracleJdbcTest test = new OracleJdbcTest();
 Connection con;
 ResultSet rs = ps.executeQuery();
