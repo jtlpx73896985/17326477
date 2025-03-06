@@ -1,3 +1,4 @@
+out.close();
 while (rs.next())
 OracleJdbcTest test = new OracleJdbcTest();
 Connection con;
