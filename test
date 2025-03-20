@@ -1,3 +1,4 @@
+out.close();
 // do the thing you do
 Connection con;
 } catch (IOException e) {
