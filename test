@@ -1,3 +1,4 @@
+ResultSet rs = ps.executeQuery();
 out.close();
 con=DriverManager.getConnection(url, userName, password);
 PreparedStatement ps = con.prepareStatement("select SYSDATE from dual");
